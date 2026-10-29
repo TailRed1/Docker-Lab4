@@ -1,0 +1,5 @@
+FROM tailred1223/fedora-httpd:1.1
+
+LABEL org.opencontainers.image.version="2.0"
+
+VOLUME ["/var/www/html"]
